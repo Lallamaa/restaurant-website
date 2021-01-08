@@ -1,0 +1,23 @@
+h2 {
+	font-family: Georgia, serif; 
+	width:1000px;
+	border-bottom: 2.5px solid #f0e4a6; 
+	color: #ebcd6b; 
+	font-size: 25px;
+}
+#about { 
+	padding-left:40px; 
+	padding-right: 20px;
+	margin-top:160px;
+	margin-bottom:100px;
+}
+.fb a:link{
+	color: gold;
+}
+.fb a:visited{
+	color:#F39C12;
+}
+.fb a:hover{
+	color:#9B59B6; 
+	text-decoration:none;
+}

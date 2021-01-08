@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Login page</title>
+<meta name=""viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Login.css">
+<script>
+function validate()
+{
+	var name, pwd, checkname=0, checkpwd=0;
+	name = document.login.username.value;
+	pwd = document.login.password.value;
+	
+	if(name=="" || name==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkname=1;
+	}
+	if(pwd=="" || pwd==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkpwd=1;
+	}
+	
+	if(checkname==1 && checkpwd==1)
+	{	
+		display();
+	}
+}
+
+function display()
+{
+	alert("Login in Successful \nWelcome To Gallerie Gold Cafe");
+}
+</script>
+</head>
+<body>
+<img src="image/logo.jpg" alt="" class="logo"/>
+<div class="form">
+<form class="box" name="login" action="index.html" method="post">
+<h1>Login</h1>
+<input type="text" required name="username" placeholder="Username">
+<input type="password" required name="password" placeholder="Password">
+<input type="submit" name="btnsubmit" value="Login" onclick="validate()">
+<p><a href="#">Forgot your password?</a> <a href="Registration form.html">Sign Up</p>
+</form>
+</div>
+</body>
+</html>

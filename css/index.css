@@ -1,0 +1,42 @@
+.reservation{
+	padding: 70px 0px;
+	margin-top:100px;
+}
+.inner-column{
+	text-align: left;
+	width:500px;
+	float:left;
+	margin:20px;
+}
+
+.inner-column h1{
+	font-size: 30px;
+	color: white;
+}
+.inner-column h1 span{
+	color: #fdcb6e;
+}
+.inner-column p{
+	font-size: 18px;
+	color: white;
+}
+.btn{
+	color: black;
+    background-color: #fdcb6e;
+    background-image: none;
+    border-color: #fdcb6e;
+}
+.btn:hover{
+	color: #ffffff;
+    background-color: #333333;
+    border-color: #333333;
+}
+.menu{
+	padding: 70px 0px;
+	text-align:center;
+	margin-bottom:100px;
+}
+.menu p{
+	font-size: 18px;
+	color: white;
+}	

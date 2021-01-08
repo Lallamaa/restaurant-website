@@ -1,0 +1,81 @@
+header{
+	font-family:latha; 
+}
+.logo img{
+	width:200px;
+	height:50px;
+	margin:10px;
+}
+.top-column .navbar {
+	background-color: #333;
+	-webkit-box-shadow: 0px 0px 33px -5px rgba(0,0,0,0.53);
+	-moz-box-shadow: 0px 0px 33px -5px rgba(0,0,0,0.53);
+	box-shadow: 0px 0px 33px -5px rgba(0,0,0,0.53);
+}
+.top-column{
+	background-color:white;
+	float:left;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.top-column .navbar a {
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.top-column .navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  border: none;
+}
+
+.drop {
+  position: relative;
+  display: inline-block;
+  
+}
+.drop ::-webkit-scrollbar {
+  width: 0px;
+}
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height:500px;
+  overflow:auto;
+  
+}
+
+.drop-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  clear:left;
+  text-align:left;
+  font-size:12px;
+  
+}
+.drop-content a:hover {
+	background-color: #333;
+}
+
+.drop:hover .drop-content {
+	display: block;
+	background-color: #333;  
+	font-size:12px;
+}
+.drop:hover .dropbtn {
+	background-color: #333;
+}

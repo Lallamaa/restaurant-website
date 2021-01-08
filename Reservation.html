@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Reservation </title>
+<meta name=""viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/reservation.css"> 
+<link rel="stylesheet" href="css/footer.css">
+<script>
+function validate()
+{
+	var date, time, size, checkdate=0, checktime=0, checksize=0;
+	date = document.reservation.reserve_date.value;
+	time = document.reservation.reserve_time.value;
+	size = document.reservation.reserve_size.value;
+	
+	if(date=="" || date==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkdate=1;
+	}
+	if(time=="" || time==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checktime=1;
+	}
+	if(size=="" || size==null || isNaN(size))
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checksize=1;
+	}
+	
+	if(checkdate==1 && checktime==1 && checksize==1)
+	{	
+		display();
+	}
+}
+
+function display()
+{
+	alert("Request sent");
+}
+</script>
+</head>
+<body>
+<header>
+	<div class="top-column">
+		<a class="logo" href="index.html">
+			<img src="image/logo.jpg" alt="" />
+		</a>
+		<div class="navbar">
+			<a href="index.html"> Home</a>
+			<div class="drop">
+				<a class="dropbtn">Menu</a>
+				<div class="drop-content">
+					<a href="Signature_Dish.html">Signature Dish</a>
+					<a href="Noodles.html">Noodles</a>
+					<a href="Rice.html">Rice</a>
+					<a href="Western.html">Western</a>
+					<a href="Snacks_n_Tibits.html">Snacks & Tibits</a>
+					<a href="Pasta.html">Pasta</a>
+					<a href="Toast_Bread_Story.html">Toast Bread Story</a>
+					<a href="Homemade_Drinks_&_Blended_Series.html">Homemade Drinks & Blended Series</a>
+					<a href="Fruit_Juice.html">Fruit Juices</a>
+					<a href="Coffee.html">Coffee</a>
+					<a href="Tealicious.html">Tealicious</a>
+					<a href="Desserts.html">Desserts</a>
+					<a href="Boba.html">Boba</a>
+					<a href="Vegetarian.html">Vegeterian Corner</a>
+				</div>
+			</div>
+			<a href="Registration form.html"> Registration</a>
+			<a href="Login form.html"> Login</a>		
+			<a href="Feedback.html"> Feedback</a>
+			<a href="aboutus.html"> About Us</a>
+		</div>
+	</div>
+</header>
+<div class="form">
+<form class="box" name="reservation" method="post" action=""/>
+<h1>Reservation </h1><br/>
+<p>Date : <input type="date" required name="reserve_date"/></p>
+<p>Time : <input type="time" required name="reserve_time"/></p>
+<p>Size : <input type="number" required name="reserve_size" min="1" max="12"/></p>
+<p><input type="submit" name="sendbtn" value="Send" onclick="validate()"></p>
+</form>
+</div>
+<!-- Site footer -->
+<footer class="site-footer">	
+	<h1> Gallerie Gold Cafè </h1><br/>
+	
+	<div class="openinghrs">
+		<div class="footer-time" type="none">
+			<p>Opening Hours</p>
+			<span>Monday - Sunday<br/></span>
+			<span>10:30am - 10:00pm<br/><br/></span>
+		</div>
+	</div>
+	
+	<div class="contact-info">
+		<div class="footer-info" type="none">
+			<p>Contact Information</p>
+			<span> No.1, Jalan Empayar,<br/> 
+				Off Persiarian Sdivtan Ibrahim Ku 1,<br/>
+				41150 Klang, Selangor, Malaysia<br/></span>
+			<span>03-33415540<br/></span>
+			<span>013-3141399<br/><br/></span>
+		</div>
+	</div>
+	
+	<div class="page-logo">
+		<div><p>Find us at:</p></div>
+		<div> 
+			<a href="https://rb.gy/lmfrxf/" target="_blank">
+				<img src="image/fb-logo.png" alt="Facebook Page" width="20" height="20"></a>
+			<span>| Facebook</span>
+		</div>
+		<div> 
+			<a href="https://instagram.com/galleriegold?igshid=1jdwtkldjtj0m" target="_blank">
+				<img src="image/ig-logo.png" alt="Instagram Page" width="23" height="23" class="ig-logo"></a>
+			<span>| Instagram </span>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

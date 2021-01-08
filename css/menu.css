@@ -1,0 +1,145 @@
+/*Menu Banner*/
+.menu-banner {  
+
+}
+.menu-banner img{
+    width: 100%;
+    margin-top: 138px;
+}
+.menu-banner ,.menu-title{
+    font-size: 40px;
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    color: white;
+    text-align: center;
+}
+.menu-title{
+    margin-top: 150px;
+}
+.centered {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-200px;
+}
+
+/*Categories Column*/
+ul.categories{
+    font-size: larger;
+    font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+    width:200px;
+    background-color:#F1F1F1;
+    list-style-type:none;
+    padding:0px;
+    margin:0px auto;
+    display:inline-block
+
+}
+ul.categories li a{
+    color: black;
+    display:block;
+    width:200px;
+    padding:5px 10px;
+    text-align:center;
+    text-decoration:none;
+}
+ul.categories li a:visited{
+    color: black;
+}
+ul.categories li a:hover{
+    background-color:rgb(54, 53, 50);
+    color: #e0cca3;
+}
+.left_column{
+    width:250px;
+    padding:10px;
+    float:left;
+    margin-left: 100px;
+    margin-top: 60px;
+    overflow: auto;
+}
+.left_column a{
+    background-color: #c3c0b7;
+    -webkit-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+}
+
+/*Menu Display*/
+#Rice{
+    box-sizing: border-box;
+    width:280px;
+    height: 380px;
+    border-radius: 20px;
+    margin:20px;
+    float: left;
+    background-color: bisque;
+	background: linear-gradient(0deg, rgba(240,228,166,1) 0%, rgba(223,171,115,1) 100%);   -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -webkit-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+}
+#SignatureDish, #Western, #ToastBS{
+    box-sizing: border-box;
+    width:280px;
+    height: 300px;
+    border-radius: 20px;
+    margin:20px;
+    float: left;
+    background: rgb(240,228,166);
+    background: linear-gradient(0deg, rgba(240,228,166,1) 0%, rgba(223,171,115,1) 100%);   -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -webkit-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+}
+#Noodles, #SnacksnTibits, #Pasta, #HomemadeDrinks, #FruitJuice, #Coffee, 
+#Tealicious, #Desserts, #Boba, #Vegetarian{
+    box-sizing: border-box;
+    width:280px;
+    height: 250px;
+    border-radius: 20px;
+    margin:20px;
+    float: left;
+    background-color: bisque;
+	background: linear-gradient(0deg, rgba(240,228,166,1) 0%, rgba(223,171,115,1) 100%);   -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -webkit-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+}
+
+.column-9{
+    float:left;
+    padding-left: 10px;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.why-text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*Order Now*/
+.OrderNow{
+    text-align: center;
+    margin-top: 10px;
+    width: 180px;
+    height: 100px;
+    color: white;
+    background-color: rgb(42, 41, 41);
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    -webkit-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    -moz-box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    box-shadow: -16px 12px 37px -1px rgba(0,0,0,0.86);
+    font-family: latha;
+}
+.OrderNow p{
+    margin-top: 10px;
+}
+.btn{
+    width: 120px;
+}
+

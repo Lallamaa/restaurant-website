@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Sign-Up </title>
+<meta name=""viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Registration.css">
+<script>
+function validate()
+{
+	var name, pwd, email, contact, checkname=0, checkpwd=0, checkemail=0, checkcontact=0;
+	name = document.frmSignup.CustomerUsername.value;
+	pwd = document.frmSignup.userPwd.value;
+	email = document.frmSignup.userEmail.value;
+	contact = document.frmSignup.contact.value;
+	
+	if(name=="" || name==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkname=1;
+	}
+	if(pwd=="" || pwd==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkpwd=1;
+	}
+	if(email=="" || email==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkemail=1;
+	}
+	if(contact=="" || contact==null)
+	{
+		alert("The form has errors");	
+	}
+	else
+	{
+		checkcontact=1;
+	}
+	
+	if(checkname==1 && checkpwd==1 && checkemail==1 && checkcontact==1)
+	{	
+		display();
+	}
+}
+
+function display()
+{
+	alert("Sign Up Successful");
+}
+</script>
+</head>
+<body>
+<img src="image/logo.jpg" alt="" class="logo"/>
+<div class="form">
+<form class="box" name="frmSignup" method="post" action="Login form.html">
+	<h1>Registration</h1>
+	<p> Username : <input type="text" name="CustomerUsername" required placeholder="Type your username here" size="20" maxlength="30"/></p>
+	<p> Password : <input type="password" name="userPwd" required placeholder="Type your password here" size="50" maxlength="60"	/></p>
+	<p> Email : <input type="email" name="userEmail" required placeholder="Type your email here"/></p>
+	<p> Contact Number : <input type="tel" id="phone" required name="contact" placeholder="Type your phone number here" pattern="[0-9]{3}-[0-9]{7-8}" required /></p>
+	<p><input type="submit" name="btnsignup" value="SIGN UP" onclick="validate()"/></p>
+	<p><a href="Login form.html">Already have account? Sign In Now</p>
+</form>
+</div>
+</body>
+</html>

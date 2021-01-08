@@ -1,0 +1,43 @@
+body{
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+footer
+{
+	font-family: latha;
+	bottom:0;
+	width:100%;
+	margin-top:auto;
+	overflow:auto;
+}
+.site-footer
+{
+	background-color:#26272b;
+	padding:45px 0px 45px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+	text-align:center;
+}
+.site-footer h1{	
+	color:  rgba(223,171,115,1);
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+}
+.site-footer p{
+	font-weight: bold;
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px;
+	
+}
+.page-logo a{
+	margin: 10px;
+}
+.ig-logo{
+	margin-left: 2px;
+}
+    
+    

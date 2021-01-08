@@ -1,0 +1,47 @@
+body{
+	font-family:latha;
+}
+.form{
+	padding: 40px;
+	margin-top:120px;
+	text-align:center;
+	background: #09080A;
+}
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box p{
+	color:white;
+} 
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"],.box input[type = "tel"]{
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #fdcb6e;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type = "submit"]{
+	border:0;
+	background:#fdcb6e;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #fdcb6e;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+	background: #ffffff;
+}
